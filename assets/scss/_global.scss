@@ -1,0 +1,83 @@
+// GLOBAL
+html{
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar{
+        width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+        background: $gray; 
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background: $primary-clr; 
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+    overflow-x: hidden;
+}
+select,input[type="date"]{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.section-title{
+    font-weight: 800;
+    size: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 20px;
+}
+.f-12{
+    font-size: 12px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-18{
+    font-size: 18px;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.rounded-corner{
+    border-radius: 5vmax;
+}
+.card{
+    border: none !important;
+}
+.card-gray{
+    background: $gray;
+    border: 1px solid $gray-2;
+    padding: 12px 22px  ;
+}
+.color-dark{
+    color: $dark-clr;
+}
+.color-gray{
+    color: #979797;
+}
+.color-primary{
+    color: $primary-clr !important;
+}
+section{
+    margin-bottom: 50px;
+}
